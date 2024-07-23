@@ -1,4 +1,4 @@
-import { Slide, FlexBox, Heading, SpectacleLogo } from 'spectacle'
+import { Slide, FlexBox, Heading } from 'spectacle'
 
 const Intro = () => (
 	<>
