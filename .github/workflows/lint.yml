@@ -1,0 +1,37 @@
+name: Lint
+
+on:
+    pull_request:
+        paths-ignore:
+            - '**.md'
+    push:
+        branches: [master]
+        paths-ignore:
+            - '**.md'
+
+jobs:
+    test-js:
+        name: JavaScript
+
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix:
+                node-version:
+                    - 20
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v2
+
+            - name: Use Node.js ${{ matrix.node-version }}
+              uses: actions/setup-node@b39b52d1213e96004bfcb1c61a8a6fa8ab84f3e8 # v4.0.1
+              with:
+                  node-version: ${{ matrix.node-version }}
+                  check-latest: true
+
+            - name: Install NPM dependencies and build
+              run: npm ci
+
+            - name: Run tests
+              run: npm run lint

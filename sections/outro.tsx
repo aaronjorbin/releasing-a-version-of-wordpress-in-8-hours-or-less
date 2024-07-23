@@ -1,4 +1,12 @@
-import { Slide, FlexBox, Heading, Notes, SlideLayout, UnorderedList, ListItem} from 'spectacle'
+import {
+	Slide,
+	FlexBox,
+	Heading,
+	Notes,
+	SlideLayout,
+	UnorderedList,
+	ListItem,
+} from 'spectacle';
 
 const Jon = () => (
 	<>
@@ -7,7 +15,7 @@ const Jon = () => (
 			<ListItem>@desrosj</ListItem>
 		</UnorderedList>
 	</>
-)
+);
 
 const Jorbin = () => (
 	<>
@@ -16,23 +24,16 @@ const Jorbin = () => (
 			<ListItem>@jorbin</ListItem>
 		</UnorderedList>
 	</>
-)
+);
 
 const Outro = () => (
 	<>
 		<Slide>
-		  <FlexBox height="100%">
-		  	Make Slide with clock
-		  </FlexBox>
-		  <Notes>
-			Release at XX:XX
-		  </Notes>
+			<FlexBox height="100%">Make Slide with clock</FlexBox>
+			<Notes>Release at XX:XX</Notes>
 		</Slide>
-		<SlideLayout.TwoColumn
-			left=<Jon />
-			right=<Jorbin />
-		/>
+		<SlideLayout.TwoColumn left={ <Jon /> } right={ <Jorbin /> } />
 	</>
-)
+);
 
 export default Outro;
