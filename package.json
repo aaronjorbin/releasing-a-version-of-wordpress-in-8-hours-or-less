@@ -1,20 +1,46 @@
 {
-  "name": "releasing-a-version-of-wordpress-in-8-hours-or-less",
-  "private": true,
-  "scripts": {
-    "start": "vite dev --port 3000",
-    "build": "vite build"
-  },
-  "dependencies": {
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0",
-    "spectacle": "^10.1.7"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.0.1",
-    "typescript": "^5.3.3",
-    "vite": "^3.0.7"
-  }
+	"name": "releasing-a-version-of-wordpress-in-8-hours-or-less",
+	"version": "0.1.0",
+	"description": "The slides for the talk Releasing a version of WordPress in 8 hours or less",
+	"author": "Aaron Jorbin and Jon Desrosiers",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Releasing",
+		"Slides",
+		"spectacle"
+	],
+	"homepage": "https://releasing-a-version-of-wordpress-in-8-hours-or-less.vercel.app/",
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:aaronjorbin/releasing-a-version-of-wordpress-in-8-hours-or-less.git"
+	},
+	"bugs": {
+		"url": "https://github.com/aaronjorbin/releasing-a-version-of-wordpress-in-8-hours-or-less/issues"
+	},
+	"private": true,
+	"dependencies": {
+		"@wordpress/scripts": "^28.3.0",
+		"react": "^18.1.0",
+		"react-dom": "^18.1.0",
+		"spectacle": "^10.1.7"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.17",
+		"@types/react-dom": "^18.0.6",
+		"@vitejs/plugin-react": "^2.0.1",
+		"npm-run-all": "^4.1.5",
+		"prettier": "npm:wp-prettier@^3.0.3",
+		"typescript": "^5.3.3",
+		"vite": "^3.0.7"
+	},
+	"scripts": {
+		"start": "vite dev --port 3000",
+		"format": "wp-scripts format",
+		"lint": "npm-run-all lint:js lint:pkg-json",
+		"lint:js": "wp-scripts lint-js",
+		"lint:fix": "wp-scripts lint-js --fix",
+		"lint:pkg-json": "wp-scripts lint-pkg-json",
+		"build": "vite build"
+	}
 }

@@ -1,21 +1,17 @@
-import { Slide, FlexBox, Heading, Notes } from 'spectacle'
+import { Slide, FlexBox, Heading, Notes } from 'spectacle';
 
 const TikTok = () => (
 	<>
 		<Slide>
-		  <FlexBox height="100%">
-		  	Make Slide with clock
-		  </FlexBox>
-		  <Notes>
-			Release at XX:XX
-		  </Notes>
+			<FlexBox height="100%">Make Slide with clock</FlexBox>
+			<Notes>Release at XX:XX</Notes>
 		</Slide>
 		<Slide>
-		  <FlexBox height="100%">
-			<Heading>Thanks Crowdstrike!</Heading>
-		  </FlexBox>
+			<FlexBox height="100%">
+				<Heading>Thanks Crowdstrike!</Heading>
+			</FlexBox>
 		</Slide>
 	</>
-)
+);
 
 export default TikTok;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { Deck, DefaultTemplate, Slide, FlexBox, Heading, SpectacleLogo } from 'spectacle'
+import { Deck, DefaultTemplate } from 'spectacle';
 
 import Intro from './sections/intro';
 import Outro from './sections/outro';
@@ -13,17 +13,17 @@ import Whatbroke from './sections/whatbroke';
 import Whatwecanlearn from './sections/what-we-can-learn';
 
 const Presentation = () => (
-  <Deck template={() => <DefaultTemplate />}>
-    <Intro />
-    <Tiktok />
-    <Whatbroke />
-    <Behind />
-    <Howithappens />
-    <Whatwecanlearn />
-    <Howupdateswork />
-    <Howwebsiteswork />
-    <Outro />
-  </Deck>
+	<Deck template={ () => <DefaultTemplate /> }>
+		<Intro />
+		<Tiktok />
+		<Whatbroke />
+		<Behind />
+		<Howithappens />
+		<Whatwecanlearn />
+		<Howupdateswork />
+		<Howwebsiteswork />
+		<Outro />
+	</Deck>
 );
 
-createRoot(document.getElementById('app')!).render(<Presentation />);
+createRoot( document.getElementById( 'app' )! ).render( <Presentation /> );
