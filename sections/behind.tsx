@@ -1,5 +1,8 @@
 import { Slide, FlexBox, Heading, Text, Notes } from 'spectacle';
 
+// @ts-ignore
+import imgUrl from  '../images/default-bsod.png' ;
+
 const Behind = () => (
 	<>
 		<Slide>
@@ -10,7 +13,7 @@ const Behind = () => (
 			<Notes>Release at XX:XX</Notes>
 		</Slide>
 
-		<Slide backgroundImage="url(images/default-bsod.png)">
+		<Slide backgroundImage={ 'url(' + imgUrl + ')' }>
 			<FlexBox height="100%"></FlexBox>
 		</Slide>
 	</>
