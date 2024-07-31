@@ -1,14 +1,19 @@
-import { Slide, FlexBox, Heading, Notes } from 'spectacle';
+import { Slide, FlexBox, Heading, Text, Quote, Notes } from 'spectacle';
 
 const Behind = () => (
 	<>
 		<Slide>
-			<FlexBox height="100%">Make Slide with clock</FlexBox>
+			<FlexBox height="100%" flexDirection="column">
+				<Heading textAlign="center">Behind the curtain</Heading>
+				<Text>What goes on behind the scenes?</Text>
+			</FlexBox>
 			<Notes>Release at XX:XX</Notes>
 		</Slide>
-		<Slide>
+
+		<Slide
+			backgroundImage="url(images/default-bsod.png)"
+		>
 			<FlexBox height="100%">
-				<Heading>Thanks Crowdstrike!</Heading>
 			</FlexBox>
 		</Slide>
 	</>
