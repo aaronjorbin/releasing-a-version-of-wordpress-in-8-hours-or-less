@@ -17,9 +17,11 @@ import theme from './theme';
 import backgroundImg from './images/topography-dark.svg';
 
 const Presentation = () => (
-	<Deck theme={theme} 
-    backgroundImage={'url(' + backgroundImg + ')'}
-    template={ () => <DefaultTemplate color={"#085357"}/> }>
+	<Deck
+		theme={ theme }
+		backgroundImage={ 'url(' + backgroundImg + ')' }
+		template={ () => <DefaultTemplate color={ '#085357' } /> }
+	>
 		<Intro />
 		<Tiktok />
 		<Whatbroke />
