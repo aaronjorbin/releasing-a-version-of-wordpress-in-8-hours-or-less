@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { Deck, DefaultTemplate, fadeTransition } from 'spectacle';
+import { Deck, DefaultTemplate } from 'spectacle';
 
 import Intro from './sections/intro';
 import Outro from './sections/outro';
