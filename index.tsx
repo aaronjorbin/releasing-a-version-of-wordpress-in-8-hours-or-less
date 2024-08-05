@@ -12,8 +12,16 @@ import Howwebsiteswork from './sections/how-websites-work';
 import Whatbroke from './sections/whatbroke';
 import Whatwecanlearn from './sections/what-we-can-learn';
 
+import theme from './theme';
+// @ts-ignore
+import backgroundImg from './images/topography-dark.svg';
+
 const Presentation = () => (
-	<Deck template={ () => <DefaultTemplate /> }>
+	<Deck
+		theme={ theme }
+		backgroundImage={ 'url(' + backgroundImg + ')' }
+		template={ () => <DefaultTemplate color={ '#085357' } /> }
+	>
 		<Intro />
 		<Tiktok />
 		<Whatbroke />
