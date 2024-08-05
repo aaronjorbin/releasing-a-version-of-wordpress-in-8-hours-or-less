@@ -1,7 +1,15 @@
-import { Slide, FlexBox, Heading, Text, Notes, UnorderedList, ListItem } from 'spectacle';
+import {
+	Slide,
+	FlexBox,
+	Heading,
+	Text,
+	Notes,
+	UnorderedList,
+	ListItem,
+} from 'spectacle';
 
 // @ts-ignore
-import imgUrl from  '../images/default-bsod.png' ;
+import imgUrl from '../images/default-bsod.png';
 
 const Behind = () => (
 	<>
@@ -39,12 +47,15 @@ const Behind = () => (
 						Unplanned
 						<UnorderedList>
 							<ListItem>Minor (Security)</ListItem>
-							<ListItem>Minor (Something is broken)</ListItem>
+							<ListItem>Minor (OMGBBQ)</ListItem>
 						</UnorderedList>
 					</ListItem>
 				</UnorderedList>
 			</FlexBox>
-			<Notes>Release at XX:XX</Notes>
+			<Notes>
+				Ticket volume, support volume, potential surface area, long term
+				consequences.
+			</Notes>
 		</Slide>
 
 		<Slide backgroundImage={ 'url(' + imgUrl + ')' }>
