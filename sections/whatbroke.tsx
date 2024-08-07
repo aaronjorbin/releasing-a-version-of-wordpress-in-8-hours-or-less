@@ -1,4 +1,11 @@
-import { Slide, FlexBox, Heading, Notes, Stepper, SlideLayout } from 'spectacle';
+import {
+	Slide,
+	FlexBox,
+	Heading,
+	Notes,
+	Stepper,
+	SlideLayout,
+} from 'spectacle';
 
 // @ts-ignore
 import changeset from '../images/requests-changeset-657.png';
@@ -56,26 +63,21 @@ const Whatbroke = () => (
 			</FlexBox>
 		</Slide>
 		<Slide backgroundImage={ 'url(' + changeset + ')' }>
-			<FlexBox height="100%">
-			</FlexBox>
+			<FlexBox height="100%"></FlexBox>
 			<Notes>
-				Innocent enough, right?
-
-				Merged to Requests on 17 August, 2023
-				Synced to Core on 11 September 2023
-
-				Available in every beta and RC for 6.4
+				Innocent enough, right? Merged to Requests on 17 August, 2023
+				Synced to Core on 11 September 2023 Available in every beta and
+				RC for 6.4
 			</Notes>
 		</Slide>
-		<SlideLayout.List 
-			title='Conditions for the Break'	
+		<SlideLayout.List
+			title="Conditions for the Break"
 			animateListItems={ true }
-			
 			items={ [
 				'cURL must default to HTTP 1 (Not true since 27 January 2016)',
 				'cURL must be version 7.22 or later',
-				'Connection: Keep-Alive must be respected by the server (which it usually should)'
-			]}
+				'Connection: Keep-Alive must be respected by the server (which it usually should)',
+			] }
 		/>
 	</>
 );
