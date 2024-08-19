@@ -29,8 +29,10 @@ const Jorbin = () => (
 const Outro = () => (
 	<>
 		<Slide>
-			<FlexBox height="100%">Make Slide with clock</FlexBox>
-			<Notes>Release at XX:XX</Notes>
+			<FlexBox height="100%" flexDirection="column">
+				<Heading textAlign="center">Final Lessons</Heading>
+				<Notes>You should be testing</Notes>
+			</FlexBox>
 		</Slide>
 		<SlideLayout.TwoColumn left={ <Jon /> } right={ <Jorbin /> } />
 	</>
