@@ -8,8 +8,7 @@ const Whatbroke = () => (
 					tagName="h1"
 					alwaysVisible
 					values={ [
-						'Nothing.',
-						'Well, they broke under certain conditions.',
+						'Nothing... But also everything',
 					] }
 				>
 					{ ( value ) =>
