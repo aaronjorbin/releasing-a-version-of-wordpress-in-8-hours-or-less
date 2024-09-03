@@ -8,9 +8,29 @@ const Whatbroke = () => (
 					tagName="h1"
 					alwaysVisible
 					values={ [
+						'Nothing.',
+						'Well, they broke under certain conditions.'
+					] }
+				>
+					{ ( value ) =>
+						value ? (
+							<Heading>{ value }</Heading>
+						) : (
+							<Heading>What Broke?</Heading>
+						)
+					}
+				</Stepper>
+			</FlexBox>
+			<Notes>
+				Nothing actually broke. The unit tests passed. The integration tests failed under certain conditions.
+			</Notes>
+
+			<FlexBox height="100%">
+				<Stepper
+					tagName="h1"
+					alwaysVisible
+					values={ [
 						'cURL',
-						'Client for URL',
-						'Started in 1998',
 						'Over twenty billion installations',
 						'Releases about every 39 days',
 					] }
@@ -26,7 +46,9 @@ const Whatbroke = () => (
 			</FlexBox>
 			<Notes>
 				You might have heard of this being a problem with Curl, but what
-				is CURL?
+				is CURL? Client for URL. Started in 1998. It is EVERYWHERE.
+				Based on 39 days per release, that's 9-10 releases per year.
+				Security updates are not backported.
 			</Notes>
 		</Slide>
 		<Slide>
@@ -35,10 +57,7 @@ const Whatbroke = () => (
 					tagName="h1"
 					alwaysVisible
 					values={ [
-						'Started by Ryan McCue',
-						'A part of the WordPress project',
-						'Used outside of just WordPress',
-						'Why?',
+						'Requests',
 						"You can't rely on cURL being everywhere",
 					] }
 				>
@@ -51,6 +70,10 @@ const Whatbroke = () => (
 					}
 				</Stepper>
 			</FlexBox>
+			<Notes>
+				A part of the WordPress project
+				Used outside of just WordPress.
+			</Notes>
 		</Slide>
 	</>
 );
