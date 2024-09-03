@@ -31,8 +31,7 @@ const Whatbroke = () => (
 					alwaysVisible
 					values={ [
 						'cURL',
-						'Over twenty billion installations',
-						'Releases about every 39 days',
+						'20B+ installations',
 					] }
 				>
 					{ ( value ) =>
@@ -46,8 +45,9 @@ const Whatbroke = () => (
 			</FlexBox>
 			<Notes>
 				You might have heard of this being a problem with Curl, but what
-				is CURL? Client for URL. Started in 1998. It is EVERYWHERE.
-				Based on 39 days per release, that's 9-10 releases per year.
+				is CURL? Client for URL.
+				It is EVERYWHERE.
+				Releases every 39 days, that's 9-10 releases per year.
 				Security updates are not backported.
 			</Notes>
 		</Slide>
