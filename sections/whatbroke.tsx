@@ -9,7 +9,7 @@ const Whatbroke = () => (
 					alwaysVisible
 					values={ [
 						'Nothing.',
-						'Well, they broke under certain conditions.'
+						'Well, they broke under certain conditions.',
 					] }
 				>
 					{ ( value ) =>
@@ -22,7 +22,8 @@ const Whatbroke = () => (
 				</Stepper>
 			</FlexBox>
 			<Notes>
-				Nothing actually broke. The unit tests passed. The integration tests failed under certain conditions.
+				Nothing actually broke. The unit tests passed. The integration
+				tests failed under certain conditions.
 			</Notes>
 
 			<FlexBox height="100%">
@@ -71,8 +72,7 @@ const Whatbroke = () => (
 				</Stepper>
 			</FlexBox>
 			<Notes>
-				A part of the WordPress project
-				Used outside of just WordPress.
+				A part of the WordPress project Used outside of just WordPress.
 			</Notes>
 		</Slide>
 	</>
