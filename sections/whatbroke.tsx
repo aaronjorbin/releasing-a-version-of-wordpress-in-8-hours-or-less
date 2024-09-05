@@ -7,9 +7,7 @@ const Whatbroke = () => (
 				<Stepper
 					tagName="h1"
 					alwaysVisible
-					values={ [
-						'Nothing... But also everything',
-					] }
+					values={ [ 'Nothing... But also everything' ] }
 				>
 					{ ( value ) =>
 						value ? (
@@ -29,10 +27,7 @@ const Whatbroke = () => (
 				<Stepper
 					tagName="h1"
 					alwaysVisible
-					values={ [
-						'cURL',
-						'20B+ installations',
-					] }
+					values={ [ 'cURL', '20B+ installations' ] }
 				>
 					{ ( value ) =>
 						value ? (
@@ -45,10 +40,9 @@ const Whatbroke = () => (
 			</FlexBox>
 			<Notes>
 				You might have heard of this being a problem with Curl, but what
-				is CURL? Client for URL.
-				It is EVERYWHERE.
-				Releases every 39 days, that's 9-10 releases per year.
-				Security updates are not backported.
+				is CURL? Client for URL. It is EVERYWHERE. Releases every 39
+				days, that's 9-10 releases per year. Security updates are not
+				backported.
 			</Notes>
 		</Slide>
 		<Slide>
