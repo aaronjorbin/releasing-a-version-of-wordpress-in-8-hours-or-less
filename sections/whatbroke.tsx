@@ -41,8 +41,8 @@ const Whatbroke = () => (
 			<Notes>
 				You might have heard of this being a problem with Curl, but what
 				is CURL? Client for URL. It is EVERYWHERE. Releases every 39
-				days, that&apos;s 9-10 releases per year. Security updates are not
-				backported.
+				days, that&apos;s 9-10 releases per year. Security updates are
+				not backported.
 			</Notes>
 		</Slide>
 		<Slide>
