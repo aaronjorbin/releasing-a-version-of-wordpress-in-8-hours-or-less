@@ -11,6 +11,7 @@ import Howupdateswork from './sections/how-updates-work';
 import Howwebsiteswork from './sections/how-websites-work';
 import Whatbroke from './sections/whatbroke';
 import Whatwecanlearn from './sections/what-we-can-learn';
+import Hostingtests from './sections/hosting-tests';
 
 import theme from './theme';
 // @ts-ignore
@@ -30,6 +31,7 @@ const Presentation = () => (
 		<Whatwecanlearn />
 		<Howupdateswork />
 		<Howwebsiteswork />
+		<Hostingtests />
 		<Outro />
 	</Deck>
 );
