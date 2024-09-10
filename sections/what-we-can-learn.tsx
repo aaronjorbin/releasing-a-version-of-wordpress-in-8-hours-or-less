@@ -21,7 +21,7 @@ const Whatwecanlearn = () => (
 			<FlexBox height="100%">
 				<Heading>The Reliability of Updates, depends on you!</Heading>
 				<Notes>
-					This is especially true for Hosting providores. Ask your
+					This is especially true for Hosting providers. Ask your
 					host how they are getting ready for new versions of
 					WordPress and if the answer does not involve them testing,
 					go find a new host.
