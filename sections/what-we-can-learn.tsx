@@ -1,8 +1,5 @@
 import { Slide, FlexBox, Heading, Notes } from 'spectacle';
 
-// @ts-ignore
-import imgUrl from '../images/hosting-screenshot.png';
-
 const Whatwecanlearn = () => (
 	<>
 		<Slide>
