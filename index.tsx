@@ -24,12 +24,12 @@ const Presentation = () => (
 	>
 		<Intro />
 		<Tiktok />
+		<Howwebsiteswork />
+		<Howupdateswork />
 		<Whatbroke />
 		<Behind />
 		<Howithappens />
 		<Whatwecanlearn />
-		<Howupdateswork />
-		<Howwebsiteswork />
 		<Outro />
 	</Deck>
 );
