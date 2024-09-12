@@ -53,7 +53,7 @@ const Whatbroke = () => (
 				Client for URL. It is EVERYWHERE. Releases on average every 39
 				days, that&apos;s 9-10 releases per year. It&apos;s been
 				releasing that often since 1996. So it&apos;s something that is
-				older than some folks in the audiance.
+				older than some folks in the audience (7 years older than WordPress).
 			</Notes>
 		</Slide>
 		<Slide>
