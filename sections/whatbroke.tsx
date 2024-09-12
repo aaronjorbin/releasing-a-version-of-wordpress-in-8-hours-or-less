@@ -105,7 +105,7 @@ const Whatbroke = () => (
 			title="Conditions for the Break"
 			animateListItems={ true }
 			items={ [
-				'cURL must default to HTTP 1 (Not true since 27 January 2016)',
+				'cURL must use HTTP 1 (the default for these versions)',
 				'cURL must be version 7.22 or later',
 				'Connection: Keep-Alive must be respected by the server (which it usually should)',
 			] }
