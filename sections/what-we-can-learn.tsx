@@ -13,7 +13,6 @@ const Whatwecanlearn = () => (
 				</Notes>
 			</FlexBox>
 		</Slide>
-
 		<Slide>
 			<FlexBox height="100%">
 				<Heading>Process Documenation is a Blueprint</Heading>
