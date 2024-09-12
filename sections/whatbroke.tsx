@@ -106,7 +106,7 @@ const Whatbroke = () => (
 			animateListItems={ true }
 			items={ [
 				'cURL must use HTTP 1 (the default for these versions)',
-				'cURL must be version 7.22 or later',
+				'cURL must be a version between 7.22 and 7.46, or configured to use HTTP 1.x on a newer version',
 				'Connection: Keep-Alive must be respected by the server (which it usually should)',
 			] }
 		>
