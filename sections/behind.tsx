@@ -58,6 +58,30 @@ const Behind = () => (
 			</Notes>
 		</Slide>
 
+		<Slide>
+			<FlexBox height="100%">
+				<Heading textAlign="center">Auto-updates for everyone</Heading>
+			</FlexBox>
+			<Notes>
+				Auto-updates ensure a more secure ecosystem. Can make it easier
+				for plugin and theme developers.
+			</Notes>
+		</Slide>
+
+		<Slide>
+			<FlexBox height="100%">
+				<Heading textAlign="center">Design for the majority</Heading>
+			</FlexBox>
+			<Notes>
+				&quot;Many end users are non-technically minded. They don&apos;t
+				know what AJAX is, nor do they care about which version of PHP
+				they are using.&quot; Or in this case, which version of
+				WordPress. Chrome updates just happen. You have no idea. You
+				SHOULDN&apos;T need to know. Backwards compatibility is a
+				foundational pillar to our project.
+			</Notes>
+		</Slide>
+
 		<Slide backgroundImage={ 'url(' + imgUrl + ')' }>
 			<FlexBox height="100%"></FlexBox>
 		</Slide>
