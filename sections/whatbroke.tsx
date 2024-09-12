@@ -107,7 +107,8 @@ const Whatbroke = () => (
 			items={ [
 				'cURL must use HTTP 1 (the default for these versions)',
 				'cURL must be a version between 7.22 and 7.46, or configured to use HTTP 1.x on a newer version',
-				'Connection: Keep-Alive must be respected by the server (which it usually should)',
+				'Keep-Alive must be enabled (the default for HTTP 1.1, Connection: Keep-Alive header required for HTTP 1.0)',
+				'Connection: Keep-Alive must be supported and respected by the server (which it usually should)',
 			] }
 		>
 			<Notes>
