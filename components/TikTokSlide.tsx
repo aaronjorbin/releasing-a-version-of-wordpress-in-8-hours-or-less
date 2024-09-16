@@ -1,4 +1,4 @@
-import { Slide, Grid, Heading, Notes, FlexBox } from 'spectacle';
+import { Slide, Heading, Notes, FlexBox } from 'spectacle';
 
 const timeSinceRelease = ( date: string, time: string ) => {
 	return (
@@ -60,8 +60,7 @@ const TikTokSlide = ( { text, time, date, notes, since }: SlideProps ) => (
  * calculate the time difference
  * @param {Date} startTime
  * @param {Date} endTime
- * @returns {Error|string}
- * @constructor
+ * @return {Error|string} string if valid dates, Error if invalid dates
  */
 const TimeDiff = ( startTime: Date, endTime: Date ) => {
 	startTime = new Date( startTime );
@@ -70,21 +69,22 @@ const TimeDiff = ( startTime: Date, endTime: Date ) => {
 
 	const startTimeInMS = startTime.getTime();
 
-	const endTimeInMS = endTime.getTime();
-
-	if ( ! startTimeInMS ) return new Error( 'Invalid start date' );
-
-	if ( ! endTimeInMS ) return new Error( 'Invalid end date' );
-
 	/**
 	 * time difference in milliseconds
 	 * @type {number}
 	 */
 	let timeDifference = endTimeInMS - startTimeInMS;
 
-	const tense = timeDifference > 0 ? 'ago' : 'after';
-
 	timeDifference = timeDifference > 0 ? timeDifference : -timeDifference;
+	const endTimeInMS = endTime.getTime();
+
+	if ( ! startTimeInMS ) {
+		return new Error( 'Invalid start date' );
+	}
+
+	if ( ! endTimeInMS ) {
+		return new Error( 'Invalid end date' );
+	}
 
 	/**
 	 * time difference in seconds
@@ -137,7 +137,7 @@ const TimeDiff = ( startTime: Date, endTime: Date ) => {
 			value.push( `${ minute } minutes` );
 		}
 	}
-	console.log( value );
+
 	if ( value.length === 0 ) {
 		return 'None';
 	}
