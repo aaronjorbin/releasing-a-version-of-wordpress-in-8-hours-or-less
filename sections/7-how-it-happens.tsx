@@ -10,7 +10,11 @@ const Howithappens = () => (
 			<FlexBox height="100%">
 				<Heading>How does a release happen?</Heading>
 			</FlexBox>
-			<Notes>Many moving parts.</Notes>
+			<Notes>
+				Many moving parts.
+				No one person decides there should be a release.
+				Each situation is different.
+			</Notes>
 		</Slide>
 
 		<Slide>
@@ -18,8 +22,7 @@ const Howithappens = () => (
 				<Heading fontSize="400px">👂</Heading>
 			</FlexBox>
 			<Notes>
-				Feedback loops. How do we look and listen for problems that a
-				response may be needed?
+				Feedback loops. We look and listen for problems and areas where a response may be needed.
 			</Notes>
 		</Slide>
 
