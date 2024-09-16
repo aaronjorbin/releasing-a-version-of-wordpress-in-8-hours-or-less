@@ -6,10 +6,12 @@ import {
 	Notes,
 	UnorderedList,
 	ListItem,
+	Image,
 } from 'spectacle';
 
 // @ts-ignore
 import imgUrl from '../images/default-bsod.png';
+import wsodUrl from '../images/fatal-error-protection.png';
 
 const Behind = () => (
 	<>
@@ -84,6 +86,12 @@ const Behind = () => (
 
 		<Slide backgroundImage={ 'url(' + imgUrl + ')' }>
 			<FlexBox height="100%"></FlexBox>
+		</Slide>
+
+		<Slide>
+			<FlexBox height="100%">
+				<Image src={ wsodUrl } width={ '65%' }></Image>
+			</FlexBox>
 		</Slide>
 	</>
 );

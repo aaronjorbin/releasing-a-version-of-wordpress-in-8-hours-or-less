@@ -110,11 +110,12 @@ const Whatbroke = () => (
 					<Notes>
 						Under certain circumstances, websites could not complete
 						most outbound HTTP requests. This means requests to
-						things like payment providrs for ecommerce sites,
+						things like payment providers for ecommerce sites,
 						requests to embed content using oembed, but more
 						importantly it means some sites could no longer reach
-						WordPress.org to requests updates. Keep-Alive is not
-						supported for HTTP/2 so it doesn&apos;t apply
+						WordPress.org to requests updates. WordPress.org
+						temporarily disabled keep-alive for HTTP 1.1. HTTP 2.0
+						is unaffected (no support for keep-alive).
 					</Notes>
 					cURL: must use HTTP 1
 				</>,
