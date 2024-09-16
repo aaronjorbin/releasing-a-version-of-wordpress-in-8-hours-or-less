@@ -69,6 +69,8 @@ const TimeDiff = ( startTime: Date, endTime: Date ) => {
 
 	const startTimeInMS = startTime.getTime();
 
+	const endTimeInMS = endTime.getTime();
+
 	/**
 	 * time difference in milliseconds
 	 * @type {number}
@@ -76,7 +78,6 @@ const TimeDiff = ( startTime: Date, endTime: Date ) => {
 	let timeDifference = endTimeInMS - startTimeInMS;
 
 	timeDifference = timeDifference > 0 ? timeDifference : -timeDifference;
-	const endTimeInMS = endTime.getTime();
 
 	if ( ! startTimeInMS ) {
 		return new Error( 'Invalid start date' );
