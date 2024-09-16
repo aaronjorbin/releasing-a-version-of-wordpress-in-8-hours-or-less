@@ -46,7 +46,12 @@ const TikTok = () => (
 			notes="We move the specific issue to a seperate room and scrub every issue/report"
 			since={ false }
 		/>
-		<TikTokSlide text="Scrub begins" time="19:11" date="November 8, 2023" since={ false } />
+		<TikTokSlide
+			text="Scrub begins"
+			time="19:11"
+			date="November 8, 2023"
+			since={ false }
+		/>
 		<TikTokSlide
 			text="Updates to 6.4 are paused and wp.org is made immune from the issue"
 			time="19:12"
