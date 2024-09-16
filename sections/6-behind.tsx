@@ -12,7 +12,6 @@ import {
 // @ts-ignore
 import imgUrl from '../images/default-bsod.png';
 import wsodUrl from '../images/fatal-error-protection.png';
-import hostingImg from '../images/make-hosting.png';
 
 const Behind = () => (
 	<>
