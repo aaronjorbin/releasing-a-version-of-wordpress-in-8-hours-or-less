@@ -11,9 +11,8 @@ const Howithappens = () => (
 				<Heading>How does a release happen?</Heading>
 			</FlexBox>
 			<Notes>
-				Many moving parts.
-				No one person decides there should be a release.
-				Each situation is different.
+				Many moving parts. No one person decides there should be a
+				release. Each situation is different.
 			</Notes>
 		</Slide>
 
@@ -22,7 +21,8 @@ const Howithappens = () => (
 				<Heading fontSize="400px">👂</Heading>
 			</FlexBox>
 			<Notes>
-				Feedback loops. We look and listen for problems and areas where a response may be needed.
+				Feedback loops. We look and listen for problems and areas where
+				a response may be needed.
 			</Notes>
 		</Slide>
 
