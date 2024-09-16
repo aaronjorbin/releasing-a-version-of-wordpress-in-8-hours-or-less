@@ -6,7 +6,7 @@ import Intro from './sections/1-intro';
 import Tiktok from './sections/2-tiktok';
 import Howwebsiteswork from './sections/3-how-websites-work';
 import Howupdateswork from './sections/4-how-updates-work';
-import Whatbroke from './sections/whatbroke';
+import Whatbroke from './sections/5-whatbroke';
 import Behind from './sections/6-behind';
 import Howithappens from './sections/7-how-it-happens';
 import Whatwecanlearn from './sections/8-what-we-can-learn';
