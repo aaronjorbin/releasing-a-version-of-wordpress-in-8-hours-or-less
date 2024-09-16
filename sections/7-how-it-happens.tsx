@@ -2,7 +2,7 @@ import { Slide, FlexBox, Heading, Notes, Image } from 'spectacle';
 
 import forumsImg from '../images/w.org-forums.png';
 import hostingImg from '../images/make-hosting.png';
-import xLogoImg from '../images/x-logo-black.png';
+import svenImg from '../images/sven-tweet.png';
 
 const Howithappens = () => (
 	<>
@@ -35,8 +35,20 @@ const Howithappens = () => (
 
 		<Slide>
 			<FlexBox height="100%">
-				<Image src={ xLogoImg } width={ '30%' }></Image>
+				<Image src={ svenImg } width={ '90%' }></Image>
 			</FlexBox>
+		</Slide>
+
+		<Slide>
+			<FlexBox height="100%">
+				<Heading>The vocal minority</Heading>
+			</FlexBox>
+			<Notes>
+				&quot;The number of people who create content on the internet
+				represents approximately 1% (or less) of the people actually
+				viewing that content&quot; Engage with more of the non-vocal
+				users. Make measured decisions.
+			</Notes>
 		</Slide>
 	</>
 );
