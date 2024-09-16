@@ -53,7 +53,8 @@ const Whatbroke = () => (
 				Client for URL. It is EVERYWHERE. Releases on average every 39
 				days, that&apos;s 9-10 releases per year. It&apos;s been
 				releasing that often since 1996. So it&apos;s something that is
-				older than some folks in the audience (7 years older than WordPress).
+				older than some folks in the audience (7 years older than
+				WordPress).
 			</Notes>
 		</Slide>
 		<Slide>
@@ -105,20 +106,23 @@ const Whatbroke = () => (
 			title="Conditions for the Break"
 			animateListItems={ true }
 			items={ [
-				'cURL must be a version between 7.22 and 7.46, or configured to use HTTP 1.x on cURL >= 7.47',
-				'cURL must use HTTP 1 (the default for these versions)',
-				'Keep-Alive must be enabled (the default for HTTP 1.1, Connection: Keep-Alive header required for HTTP 1.0)',
-				'Connection: Keep-Alive must be supported and respected by the server (which it usually should)',
+				<>
+					<Notes>
+						Under certain circumstances, websites could not complete
+						most outbound HTTP requests. This means requests to
+						things like payment providrs for ecommerce sites,
+						requests to embed content using oembed, but more
+						importantly it means some sites could no longer reach
+						WordPress.org to requests updates. Keep-Alive is not
+						supported for HTTP/2 so it doesn&apos;t apply
+					</Notes>
+					cURL: must use HTTP 1
+				</>,
+				'cURL: version between 7.22 & 7.46, or set to use HTTP 1.x on cURL >= 7.47',
+				'Keep-Alive must be enabled (default for HTTP 1.1, Connection: Keep-Alive header required for HTTP 1.0)',
+				'Connection: Keep-Alive must be supported & respected by the server',
 			] }
-		>
-			<Notes>
-				Under certain circumstances, websites could not complete most
-				outbound HTTP requests. This means requests to things like
-				payment providrs for ecommerce sites, requests to embed content
-				using oembed, but more importantly it means some sites could no
-				longer reach WordPress.org to requests updates.
-			</Notes>
-		</SlideLayout.List>
+		></SlideLayout.List>
 	</>
 );
 
