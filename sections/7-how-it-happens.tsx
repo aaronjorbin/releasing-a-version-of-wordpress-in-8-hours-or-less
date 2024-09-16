@@ -1,7 +1,10 @@
 import { Slide, FlexBox, Heading, Notes, Image } from 'spectacle';
 
+// @ts-ignore
 import forumsImg from '../images/w.org-forums.png';
+// @ts-ignore
 import hostingImg from '../images/make-hosting.png';
+// @ts-ignore
 import svenImg from '../images/sven-tweet.png';
 
 const Howithappens = () => (

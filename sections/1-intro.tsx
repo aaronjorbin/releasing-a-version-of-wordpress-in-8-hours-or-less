@@ -1,7 +1,9 @@
 import { Slide, FlexBox, Image, Heading } from 'spectacle';
 
-const tweetImg = '../images/francesca-tweet.png';
-const jorbinImg = '../images/jorbin-tweet.png';
+// @ts-ignore
+import tweetImg from '../images/francesca-tweet.png';
+// @ts-ignore
+import jorbinImg from '../images/jorbin-tweet.png';
 
 const Intro = () => (
 	<>
