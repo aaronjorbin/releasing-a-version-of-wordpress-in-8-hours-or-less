@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import { Deck, DefaultTemplate } from 'spectacle';
+import { Deck } from 'spectacle';
 
 import Intro from './sections/1-intro';
 import Tiktok from './sections/2-tiktok';
@@ -18,11 +18,7 @@ import theme from './theme';
 import backgroundImg from './images/topography-dark.svg';
 
 const Presentation = () => (
-	<Deck
-		theme={ theme }
-		backgroundImage={ 'url(' + backgroundImg + ')' }
-		template={ () => <DefaultTemplate color={ '#085357' } /> }
-	>
+	<Deck theme={ theme } backgroundImage={ 'url(' + backgroundImg + ')' }>
 		<Intro />
 		<Tiktok />
 		<Howwebsiteswork />
