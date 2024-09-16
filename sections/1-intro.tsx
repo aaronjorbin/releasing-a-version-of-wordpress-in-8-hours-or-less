@@ -1,4 +1,7 @@
-import { Slide, FlexBox, Heading } from 'spectacle';
+import { Slide, FlexBox, Image, Heading } from 'spectacle';
+
+const tweetImg = '../images/francesca-tweet.png';
+const jorbinImg = '../images/jorbin-tweet.png';
 
 const Intro = () => (
 	<>
@@ -11,7 +14,12 @@ const Intro = () => (
 		</Slide>
 		<Slide>
 			<FlexBox height="100%">
-				<Heading>Thanks Crowdstrike!</Heading>
+				<Image src={ tweetImg } />
+			</FlexBox>
+		</Slide>
+		<Slide>
+			<FlexBox height="100%">
+				<Image src={ jorbinImg } />
 			</FlexBox>
 		</Slide>
 	</>
