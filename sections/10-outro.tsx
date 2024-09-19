@@ -11,22 +11,24 @@ import {
 
 const Jon = () => (
 	<>
-		<Heading>Jon longlastname</Heading>
+		<Heading fontSize="h2">Jonathan Desrosiers</Heading>
 		<UnorderedList color="secondary">
 			<ListItem>@desrosj</ListItem>
-			<ListItem>Go Red Sox</ListItem>
 			<ListItem>Bluehost Sponsored WordPress Committer</ListItem>
+			<ListItem>Go Red Sox</ListItem>
+			<ListItem>jonwp.dev</ListItem>
 		</UnorderedList>
 	</>
 );
 
 const Jorbin = () => (
 	<>
-		<Heading>Aaron Jorbin</Heading>
+		<Heading fontSize="h2">Aaron Jorbin</Heading>
 		<UnorderedList color="secondary">
 			<ListItem>@jorbin</ListItem>
-			<ListItem>Go White Sox</ListItem>
 			<ListItem>Independently Sponsored WordPress Committer</ListItem>
+			<ListItem>Go White Sox</ListItem>
+			<ListItem>aaron.jorb.in</ListItem>
 		</UnorderedList>
 	</>
 );

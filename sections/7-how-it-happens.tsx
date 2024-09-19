@@ -57,7 +57,10 @@ const Howithappens = () => (
 				&quot;The number of people who create content on the internet
 				represents approximately 1% (or less) of the people actually
 				viewing that content&quot; Engage with more of the non-vocal
-				users. Make measured decisions.
+				users. Make measured decisions. It&apos;s also not an insult to
+				be in the vocal minority. We have both been in that group at
+				various times. For 6.4.1, there was enough feedback that showed
+				this was not just a case of vocal minority.
 			</Notes>
 		</Slide>
 		<Slide>
@@ -65,7 +68,7 @@ const Howithappens = () => (
 				<Heading>Core Decision Making</Heading>
 			</FlexBox>
 			<Notes>
-				The core team engages in consensus seaking to make decisions.
+				The core team engages in consensus seeking to make decisions.
 				That means we try to seek out all opinions and find the best
 				ones that lack strong opposition.
 			</Notes>
@@ -78,7 +81,9 @@ const Howithappens = () => (
 				There is no one person who decides when to release. It is a team
 				decision. The release lead is the final decision maker. Matt is
 				rarely involved in the decision. the process takes place in
-				public and anyone can participate.
+				public and anyone can participate. In the case of 6.4.1, enough
+				contributors that showed up felt this was significant enough to
+				be addressed ASAP.
 			</Notes>
 		</Slide>
 		<Slide>
