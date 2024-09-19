@@ -52,7 +52,13 @@ const Howwebsiteswork = () => (
 			<Notes>
 				Jon Takes this part: This doesn&apos;t even touch on tech that
 				PHP interacts with or the configuration flags for how nginx is
-				built.
+				built. Part of why WordPress is so great is that it can be run
+				under a variety of conditions with any theme and combination of
+				plugins. This also makes WordPress really complicated. With
+				59,000 plugins in the directory, every site has 4 plugins
+				active, that means there are 505 quadrillion possible
+				combinations. That doesn&apos;t even consider the 12,000 themes
+				available in the WordPress.org directory.
 			</Notes>
 		</Slide>
 		<Slide>

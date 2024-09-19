@@ -55,8 +55,11 @@ const Behind = () => (
 				</UnorderedList>
 			</FlexBox>
 			<Notes>
-				Ticket volume, support volume, potential surface area, long term
-				consequences.
+				When reporting security vulnerabilities, the project asks that
+				everyone practice responsible disclosure to the security team.
+				Sometimes bad actors do not follow this practice, resulting in
+				unplanned security releases. Ticket volume, support volume,
+				potential surface area, long term consequences.
 			</Notes>
 		</Slide>
 

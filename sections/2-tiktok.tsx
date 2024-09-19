@@ -27,7 +27,7 @@ const TikTok = () => (
 			since={ true }
 		/>
 		<TikTokSlide
-			text="Issue is first raised in slack"
+			text="Issue is first raised in Slack"
 			time="18:05"
 			date="November 8, 2023"
 			since={ true }
