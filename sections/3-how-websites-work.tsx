@@ -8,11 +8,8 @@ const Howwebsiteswork = () => (
 					Let&apos;s step back and look at How Websites Work
 				</Heading>
 				<Notes>
-					Systems are very interconnected. You don’t control 100% of
-					the involved components (MySQL version is often managed by
-					hosts, infrastructure, etc.) Your exact configuration could
-					very well be unique to you Server versions, PHP versions, OS
-					versions, Curl versions, etc.
+					Systems are very interconnected. Websites may seem simple,
+					but under the hood, each one is unique.
 				</Notes>
 			</FlexBox>
 		</Slide>
@@ -53,9 +50,10 @@ const Howwebsiteswork = () => (
 				<Heading>Your Website is a special snowflake</Heading>
 			</FlexBox>
 			<Notes>
-				This doesn&apos;t even touch on tech that PHP interacts with or
-				the configuration flags for how nginx is built. Part of why
-				WordPress is so great is that it can be run under a variety of
+				Jon Takes this part: This doesn&apos;t even touch on tech that
+				PHP interacts with or the configuration flags for how nginx is
+				built.
+        Part of why WordPress is so great is that it can be run under a variety of
 				conditions with any theme and combination of plugins. This also
 				makes WordPress really complicated. With 59,000 plugins in the
 				directory, every site has 4 plugins active, that means there are
@@ -70,7 +68,22 @@ const Howwebsiteswork = () => (
 					You shouldn&apos;t need to worry about this (but please keep
 					it up to date)
 				</Heading>
+				<Notes>
+					end with &quot;Becouse WordPress has a philosophy to:&quot;
+				</Notes>
 			</FlexBox>
+		</Slide>
+		<Slide>
+			<FlexBox height="100%">
+				<Heading>Strive for Simplicity</Heading>
+			</FlexBox>
+			<Notes>
+				We’re never done with simplicity. We want to make WordPress
+				easier to use with every single release. Updates used to be a
+				manual process that was tricky for a lot of people. Now, anyone
+				can update easily and with automatic updates, you don&apos;t
+				even need to worry about updates.
+			</Notes>
 		</Slide>
 	</>
 );

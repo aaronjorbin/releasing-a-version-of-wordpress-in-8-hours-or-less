@@ -43,6 +43,10 @@ const Howithappens = () => (
 			<FlexBox height="100%">
 				<Image src={ svenImg } width={ '90%' }></Image>
 			</FlexBox>
+			<Notes>
+				Update Fatigue is a real problem. We need to balance the
+				benefits of the update with the pain of the bugs that are known.
+			</Notes>
 		</Slide>
 
 		<Slide>
@@ -54,6 +58,62 @@ const Howithappens = () => (
 				represents approximately 1% (or less) of the people actually
 				viewing that content&quot; Engage with more of the non-vocal
 				users. Make measured decisions.
+			</Notes>
+		</Slide>
+		<Slide>
+			<FlexBox height="100%">
+				<Heading>Core Decision Making</Heading>
+			</FlexBox>
+			<Notes>
+				The core team engages in consensus seaking to make decisions.
+				That means we try to seek out all opinions and find the best
+				ones that lack strong opposition.
+			</Notes>
+		</Slide>
+		<Slide>
+			<FlexBox height="100%">
+				<Heading>Who Decides When to Release</Heading>
+			</FlexBox>
+			<Notes>
+				There is no one person who decides when to release. It is a team
+				decision. The release lead is the final decision maker. Matt is
+				rarely involved in the decision. the process takes place in
+				public and anyone can participate.
+			</Notes>
+		</Slide>
+		<Slide>
+			<FlexBox height="100%">
+				<Heading>Minor Release Leads</Heading>
+			</FlexBox>
+			<Notes>
+				Minor Releases are led by a small group (usually 1-3 people) who
+				are experienced contributors to WordPress Core. This is
+				generally Core Committers who want to prioritize maintaince.
+				They make the final decision on what goes into the release and
+				when it is ready.
+			</Notes>
+		</Slide>
+		<Slide>
+			<FlexBox height="100%">
+				<Heading>
+					Not Being Able to Update is a Security Concern
+				</Heading>
+			</FlexBox>
+			<Notes>
+				One of the most important ways to keep a site secure is to keep
+				it updated. In the instance of 6.4.1, the pain of a bug that
+				could block websites from updating was considered a security
+				concern.
+			</Notes>
+		</Slide>
+		<Slide>
+			<FlexBox height="100%">
+				<Heading>Only One Version is Supported</Heading>
+			</FlexBox>
+			<Notes>
+				While WordPress backports security fixes as a courtesy, only the
+				most recent version is supported. You should always be running
+				the latest version of WordPress.
 			</Notes>
 		</Slide>
 	</>
