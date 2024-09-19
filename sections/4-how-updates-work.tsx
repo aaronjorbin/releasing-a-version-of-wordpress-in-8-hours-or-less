@@ -22,7 +22,7 @@ const Howupdateswork = () => (
 			title={ 'Response to version check API' }
 			listItems={ [
 				'Your WordPress ask update server for info',
-				'If the filesystem and constants allow it, the site will download the highest autoupdate it can',
+				'If the filesystem and constants allow it, the site will download the highest auto-update it can',
 			] }
 		/>
 		<SlideLayout.List
