@@ -11,7 +11,7 @@ import {
 
 const Jon = () => (
 	<>
-		<Heading>Jonathan Desrosiers</Heading>
+		<Heading fontSize="h2">Jonathan Desrosiers</Heading>
 		<UnorderedList color="secondary">
 			<ListItem>@desrosj</ListItem>
 			<ListItem>Bluehost Sponsored WordPress Committer</ListItem>
@@ -23,7 +23,7 @@ const Jon = () => (
 
 const Jorbin = () => (
 	<>
-		<Heading>Aaron Jorbin</Heading>
+		<Heading fontSize="h2">Aaron Jorbin</Heading>
 		<UnorderedList color="secondary">
 			<ListItem>@jorbin</ListItem>
 			<ListItem>Independently Sponsored WordPress Committer</ListItem>
