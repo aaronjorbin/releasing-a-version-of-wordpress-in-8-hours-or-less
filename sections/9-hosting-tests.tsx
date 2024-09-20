@@ -1,4 +1,4 @@
-import {Slide, FlexBox, Heading, Notes, Image} from 'spectacle';
+import { Slide, FlexBox, Heading, Notes, Image } from 'spectacle';
 
 // @ts-ignore
 import imgUrl from '../images/hosting-screenshot.png';
@@ -10,10 +10,10 @@ const Hostingtests = () => (
 			<FlexBox height="100%">
 				<Heading>The Reliability of Updates, depends on you!</Heading>
 				<Notes>
-					This is especially true for Hosting providers. Ask your
-					host how they are getting ready for new versions of
-					WordPress and if the answer does not involve them testing,
-					go find a new host.
+					This is especially true for Hosting providers. Ask your host
+					how they are getting ready for new versions of WordPress and
+					if the answer does not involve them testing, go find a new
+					host.
 				</Notes>
 			</FlexBox>
 		</Slide>

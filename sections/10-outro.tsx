@@ -84,6 +84,8 @@ const Outro = () => (
 					@iandunn @matthewjho @coffee2code @boogah @jason_the_adams
 					@joemcgill @johnjamesjacoby @jrf @renehermi @dlh @mukesh27
 					@sumitbagthariya16 @starbuck @sergeybiryukov @swissspiddy
+					@dd32, @crixu, @javiercasares, @earnjam, @chrisdavidmiles,
+					@pfefferle, @javiercasares, @kirasong
 				</Text>
 				<Notes>
 					WordPress 6.4.1 and this talk would not be possible without
