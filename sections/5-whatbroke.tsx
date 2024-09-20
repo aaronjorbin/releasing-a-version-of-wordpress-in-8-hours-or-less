@@ -83,7 +83,9 @@ const Whatbroke = () => (
 			</FlexBox>
 			<Notes>
 				This is needed since while cURL is everywhere, it is not
-				actually everywhere. WordPress has a philosophy to work
+				actually everywhere, and may not be properly configured.
+				WordPress has a philosophy to work. cURL has an interesting API,
+				to say the least.
 			</Notes>
 		</Slide>
 		<Slide>
