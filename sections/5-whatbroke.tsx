@@ -117,7 +117,9 @@ const Whatbroke = () => (
 						importantly it means some sites could no longer reach
 						WordPress.org to requests updates. WordPress.org
 						temporarily disabled keep-alive for HTTP 1.1. HTTP 2.0
-						is unaffected (no support for keep-alive).
+						is unaffected (no support for keep-alive). Version 7.47
+						of cURL was released in 2015 during the same month as
+						WordPress 4.4. 20 versions of WordPress has passed.
 					</Notes>
 					cURL: must use HTTP 1
 				</>,
