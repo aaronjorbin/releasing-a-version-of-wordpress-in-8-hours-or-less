@@ -22,16 +22,25 @@ const Howupdateswork = () => (
 			title={ 'Response to version check API' }
 			listItems={ [
 				'Your WordPress ask update server for info',
-				'If the filesystem and constants allow it, the site will download the highest autoupdate it can',
+				'If the filesystem and constants allow it, the site will download the highest auto-update it can',
 			] }
 		/>
 		<SlideLayout.List
 			title={ 'What Affects the Updates' }
 			items={ [
-				'the `AUTOMATIC_UPDATER_DISABLED` and `WP_AUTO_UPDATE_CORE` constant',
+				<>
+					<Notes>
+						In rare occasions, WordPress will change to require
+						certain extensions. IN WP 5.3, the native JSON extension
+						was made a requirement to run WordPress.
+					</Notes>
+					the `AUTOMATIC_UPDATER_DISABLED` and `WP_AUTO_UPDATE_CORE`
+					constant
+				</>,
 				'If WordPress is unable to write to the filesystem',
 				'If WordPress is stored in Version Control',
 				'The PHP and MySQL versions',
+				'How extensions are configured',
 			] }
 		/>
 	</>

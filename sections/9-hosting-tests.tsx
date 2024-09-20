@@ -1,7 +1,8 @@
-import { Slide, FlexBox, Heading, Notes } from 'spectacle';
+import { Slide, FlexBox, Heading, Notes, Image } from 'spectacle';
 
 // @ts-ignore
 import imgUrl from '../images/hosting-screenshot.png';
+import multiImg from '../images/hosting-screenshot-multi.png';
 
 const Hostingtests = () => (
 	<>
@@ -9,10 +10,10 @@ const Hostingtests = () => (
 			<FlexBox height="100%">
 				<Heading>The Reliability of Updates, depends on you!</Heading>
 				<Notes>
-					This is especially true for Hosting providores. Ask your
-					host how they are getting ready for new versions of
-					WordPress and if the answer does not involve them testing,
-					go find a new host.
+					This is especially true for Hosting providers. Ask your host
+					how they are getting ready for new versions of WordPress and
+					if the answer does not involve them testing, go find a new
+					host.
 				</Notes>
 			</FlexBox>
 		</Slide>
@@ -27,8 +28,10 @@ const Hostingtests = () => (
 			</Notes>
 		</Slide>
 
-		<Slide backgroundImage={ 'url(' + imgUrl + ')' }>
-			<FlexBox height="100%"></FlexBox>
+		<Slide>
+			<FlexBox height="100%">
+				<Image src={ multiImg } width={ '65%' }></Image>
+			</FlexBox>
 			<Notes>
 				Now supports multiple reports per commit to allow for multiple
 				environment types, multiple PHP or database versions, operating
