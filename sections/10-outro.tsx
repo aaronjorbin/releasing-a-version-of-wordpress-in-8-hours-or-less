@@ -93,6 +93,11 @@ const Outro = () => (
 				</Notes>
 			</FlexBox>
 		</Slide>
+		<Slide>
+			<FlexBox height="100%" flexDirection="column">
+				<Heading textAlign="center">Thank You</Heading>
+			</FlexBox>
+		</Slide>
 	</>
 );
 
