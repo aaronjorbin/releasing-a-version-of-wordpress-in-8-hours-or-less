@@ -2,6 +2,7 @@ import { Slide, FlexBox, Heading, Notes, Image } from 'spectacle';
 
 // @ts-ignore
 import imgUrl from '../images/hosting-screenshot.png';
+// @ts-ignore
 import multiImg from '../images/hosting-screenshot-multi.png';
 
 const Hostingtests = () => (
@@ -10,8 +11,8 @@ const Hostingtests = () => (
 			<FlexBox height="100%">
 				<Heading>The Reliability of Updates, depends on you!</Heading>
 				<Notes>
-					Jorbin: This is especially true for Hosting providers. Ask
-					your host how they are getting ready for new versions of
+					Jon: This is especially true for Hosting providers. Ask your
+					host how they are getting ready for new versions of
 					WordPress and if the answer does not involve them testing,
 					go find a new host.
 				</Notes>
@@ -21,7 +22,7 @@ const Hostingtests = () => (
 		<Slide backgroundImage={ 'url(' + imgUrl + ')' }>
 			<FlexBox height="100%"></FlexBox>
 			<Notes>
-				Jorbin: If your site broke during the upgrade to 6.4 and you do
+				JORBIN: If your site broke during the upgrade to 6.4 and you do
 				not see your host on this list, ask them why. If you are a host
 				and do not see yourself on this list, ask in the #hosting
 				channel and get yourself added.

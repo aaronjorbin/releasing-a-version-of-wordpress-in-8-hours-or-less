@@ -19,16 +19,16 @@ const Intro = () => (
 				<Image src={ tweetImg } />
 			</FlexBox>
 			<Notes>
-				The day after the release of WordPress 6.4, one of the Release
-				Coodinators, Francesca Marano, shared this tweet. And she&apos;s
-				right, but also...
+				JORBIN: The day after the release of WordPress 6.4, one of the
+				Release Coodinators, Francesca Marano, shared this tweet. And
+				she&apos;s right, but also...
 			</Notes>
 		</Slide>
 		<Slide>
 			<FlexBox height="100%">
 				<Image src={ jorbinImg } />
 			</FlexBox>
-			<Notes>Oh how little did she know at this moment.</Notes>
+			<Notes>JON: Oh how little did she know at this moment.</Notes>
 		</Slide>
 	</>
 );

@@ -37,20 +37,14 @@ const Outro = () => (
 	<>
 		<Slide>
 			<FlexBox height="100%" flexDirection="column">
-				<Heading textAlign="center">Final Lessons</Heading>
-				<Notes>You should be testing</Notes>
-			</FlexBox>
-		</Slide>
-		<Slide>
-			<FlexBox height="100%" flexDirection="column">
 				<Heading textAlign="center">
 					What is the plan for when your plan fails?
 				</Heading>
 				<Notes>
-					You are going to run into the unexpected, how do you prepare
-					for it? Have you made your team feel empowered to use your
-					documentation as a guide rather than a must follow? A crisis
-					is a test.
+					Jon: You are going to run into the unexpected, how do you
+					prepare for it? Have you made your team feel empowered to
+					use your documentation as a guide rather than a must follow?
+					A crisis is a test.
 				</Notes>
 			</FlexBox>
 		</Slide>
@@ -58,10 +52,10 @@ const Outro = () => (
 			<FlexBox height="100%" flexDirection="column">
 				<Heading textAlign="center">Keep Something in Reserve</Heading>
 				<Notes>
-					If you do not have a pitcher in the Bullpen, your only
-					option is to leave the starter in. By having someone (or
-					something if you are a one person show) in reserve, you can
-					handle the unexpected.
+					Jorbin: If you do not have a pitcher in the Bullpen, your
+					only option is to leave the starter in. By having someone
+					(or something if you are a one person show) in reserve, you
+					can handle the unexpected.
 				</Notes>
 			</FlexBox>
 		</Slide>
@@ -98,6 +92,7 @@ const Outro = () => (
 				<Heading textAlign="center">Thank You</Heading>
 			</FlexBox>
 		</Slide>
+		<SlideLayout.TwoColumn left={ <Jon /> } right={ <Jorbin /> } />
 	</>
 );
 

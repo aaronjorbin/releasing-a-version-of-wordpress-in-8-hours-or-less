@@ -9,7 +9,9 @@ const Howupdateswork = () => (
 			<FlexBox height="100%">
 				<Heading>How Updates Work</Heading>
 			</FlexBox>
-			<Notes>check the server, get the files, bipity bopity boop</Notes>
+			<Notes>
+				Jon: check the server, get the files, bipity bopity boop
+			</Notes>
 		</Slide>
 		<Slide>
 			<FlexBox height="100%">
@@ -21,7 +23,10 @@ const Howupdateswork = () => (
 			alt={ 'Response to version check API' }
 			title={ 'Response to version check API' }
 			listItems={ [
-				'Your WordPress ask update server for info',
+				<>
+					<Notes>Jorbin:</Notes>
+					Your WordPress ask update server for info
+				</>,
 				'If the filesystem and constants allow it, the site will download the highest auto-update it can',
 			] }
 		/>
@@ -30,9 +35,10 @@ const Howupdateswork = () => (
 			items={ [
 				<>
 					<Notes>
-						In rare occasions, WordPress will change to require
-						certain extensions. IN WP 5.3, the native JSON extension
-						was made a requirement to run WordPress.
+						Jorbin Star and Jon finish: In rare occasions, WordPress
+						will change to require certain extensions. IN WP 5.3,
+						the native JSON extension was made a requirement to run
+						WordPress.
 					</Notes>
 					the `AUTOMATIC_UPDATER_DISABLED` and `WP_AUTO_UPDATE_CORE`
 					constant

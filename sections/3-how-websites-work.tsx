@@ -8,34 +8,39 @@ const Howwebsiteswork = () => (
 					Let&apos;s step back and look at How Websites Work
 				</Heading>
 				<Notes>
-					Systems are very interconnected. Websites may seem simple,
-					but under the hood, each one is unique.
+					JON: Systems are very interconnected. Websites may seem
+					simple, but under the hood, each one is unique.
 				</Notes>
 			</FlexBox>
 		</Slide>
 		<Slide>
 			<FlexBox height="100%">
 				<Heading>Your Webstack is Unique</Heading>
+				<Notes>Jorbin</Notes>
 			</FlexBox>
 		</Slide>
 		<Slide>
 			<FlexBox height="100%">
 				<Heading>PHP Version</Heading>
+				<Notes>Jorbin</Notes>
 			</FlexBox>
 		</Slide>
 		<Slide>
 			<FlexBox height="100%">
 				<Heading>PHP Configuration</Heading>
+				<Notes>Jorbin</Notes>
 			</FlexBox>
 		</Slide>
 		<Slide>
 			<FlexBox height="100%">
 				<Heading>Apache/Nginx/Caddy</Heading>
+				<Notes>Jorbin</Notes>
 			</FlexBox>
 		</Slide>
 		<Slide>
 			<FlexBox height="100%">
 				<Heading>MySQL/MariaDB</Heading>
+				<Notes>Jorbin</Notes>
 			</FlexBox>
 		</Slide>
 		<Slide>
@@ -43,6 +48,7 @@ const Howwebsiteswork = () => (
 				<Heading>
 					This is all before we get to Themes and Plugins
 				</Heading>
+				<Notes>Jon</Notes>
 			</FlexBox>
 		</Slide>
 		<Slide>
@@ -68,7 +74,8 @@ const Howwebsiteswork = () => (
 					it up to date)
 				</Heading>
 				<Notes>
-					end with &quot;Becouse WordPress has a philosophy to:&quot;
+					Jorbin: end with &quot;Becouse WordPress has a philosophy
+					to:&quot;
 				</Notes>
 			</FlexBox>
 		</Slide>
@@ -77,11 +84,11 @@ const Howwebsiteswork = () => (
 				<Heading>Strive for Simplicity</Heading>
 			</FlexBox>
 			<Notes>
-				We’re never done with simplicity. We want to make WordPress
-				easier to use with every single release. Updates used to be a
-				manual process that was tricky for a lot of people. Now, anyone
-				can update easily and with automatic updates, you don&apos;t
-				even need to worry about updates.
+				Jorbin: We’re never done with simplicity. We want to make
+				WordPress easier to use with every single release. Updates used
+				to be a manual process that was tricky for a lot of people. Now,
+				anyone can update easily and with automatic updates, you
+				don&apos;t even need to worry about updates.
 			</Notes>
 		</Slide>
 	</>
