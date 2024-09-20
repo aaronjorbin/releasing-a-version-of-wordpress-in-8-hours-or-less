@@ -2,6 +2,8 @@
 
 Made with ❤️  and [Spectacle](https://github.com/FormidableLabs/spectacle/).
 
+This [joint presentation was created for and given](https://us.wordcamp.org/2024/session/releasing-a-version-of-wordpress-in-8-hours-or-less/) at [WordCamp US 2024 in Portland Oregon](https://us.wordcamp.org/2024/).
+
 ## Running your presentation
 
 - Run `yarn install` (or `npm install` or `pnpm install`) to install dependencies.
