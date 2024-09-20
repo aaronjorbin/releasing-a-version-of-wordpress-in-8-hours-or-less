@@ -69,9 +69,11 @@ const Howithappens = () => (
 				<Heading>Core Decision Making</Heading>
 			</FlexBox>
 			<Notes>
-				Jorbin: The core team engages in consensus seaking to make
-				decisions. That means we try to seek out all opinions and find
-				the best ones that lack strong opposition.
+				Jorbin: The core team engages in consensus seeking to make decisions.
+				That means we try to seek out all opinions and find the best
+				ones that lack strong opposition. Disagree and commit. Strong
+				opinions loosely held. It&apos;s perfectly reasonable to
+				disagree. But we must push forward.
 			</Notes>
 		</Slide>
 		<Slide>
